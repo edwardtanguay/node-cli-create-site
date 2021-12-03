@@ -32,6 +32,7 @@ if (!fs.existsSync(directoryName)) {
 	fs.mkdirSync(directoryName);
 }
 
+// create pages
 switch (kind) {
 	case "simple":
 		fs.writeFileSync(`${directoryName}/index.html`, `<html lang="en">
