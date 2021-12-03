@@ -5,9 +5,6 @@ This is an example of how easy it is to create a CLI tool to generate code, in t
 ## How to use
 
 - clone this repository
-- type `node create-site.js` for instructions:
-
-## Instructions
 
 ```
 COMMAND SYNTAX:
