@@ -18,6 +18,7 @@ if (siteName === undefined || !['simple', 'complex'].includes(kind)) {
 	console.log('node create-site.js test001')
 	console.log('node create-site.js test001 simple')
 	console.log('node create-site.js test001 complex')
+	console.log('node create-site.js "Berlin MongoDB Conference" complex')
 	process.exit();
 }
 const directoryName = siteName.split('').filter(char => {
