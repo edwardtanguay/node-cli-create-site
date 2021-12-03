@@ -23,4 +23,5 @@ node create-site.js "Berlin MongoDB Conference" complex
 ## Example
 
 `node create-site.js "Berlin MongoDB Conference" complex`
+
 ![grafik](https://user-images.githubusercontent.com/446574/144552973-145c0320-8c60-45a6-bead-f74ccb491e6c.png)
