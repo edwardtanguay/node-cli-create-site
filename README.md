@@ -4,10 +4,10 @@ This is an example of how easy it is to create a CLI tool to generate code, in t
 
 ## How to use
 
-- git clone
-- `node create-site.js` for instructions
+- clone this repository
+- type `node create-site.js` for instructions:
 
-## Syntax
+## Instructions
 
 ```
 COMMAND SYNTAX:
