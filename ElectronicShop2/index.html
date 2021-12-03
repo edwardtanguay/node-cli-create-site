@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		  content="IE=edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>ElectronicShop2</title>
+</head>
+<body>
+<h1>ELECTRONIC SHOP2</h1>
+	<p class="message"
+	   style="display:none">Welcome to this styled and interactive site.</p>
+	<button class="buttonShowMessage">Show Message</button>
+
+	<script>
+		const messageElem = document.querySelector('.message');
+		const buttonElem = document.querySelector('.buttonShowMessage');
+		buttonElem.onclick = () => {
+			messageElem.style.display = 'block';
+			buttonElem.style.display = 'none';
+		}
+	</script>
+</body>
+</html>
